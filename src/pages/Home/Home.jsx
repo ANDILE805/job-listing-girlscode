@@ -7,14 +7,14 @@ const Home = () => {
             <div className='flex flex-col justify-center h-24 bg-slate-200'>
                 <div className='flex justify-between items-center'>
                     <div>
-                        <a href='#' className='font-bold text-4xl pl-20 hover:text-sky-700 '>JOB AGENCY WEBSITE</a>
+                        <a href='http://localhost:3000/' className='font-bold text-4xl pl-20 hover:text-sky-700 '>JOB AGENCY WEBSITE</a>
                     </div>
 
 
                     <div>
                         <ul className="flex gap-24 text-xl pr-5">
                             <li>
-                                <a href="#" className="font-bold hover:text-sky-700">Home</a>
+                                <a href="http://localhost:3000/" className="font-bold hover:text-sky-700">Home</a>
                             </li>
                             <li>
                                 <a href="#" className="font-bold hover:text-sky-700">Jobs</a>
