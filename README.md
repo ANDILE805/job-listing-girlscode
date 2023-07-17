@@ -26,9 +26,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# job-listing-girlscode
+## job-listing-girlscode
 Collaborators:
-Andile Mbatha
-Halala Ndwandwe
-Zanele Manyathi
-Letty Moila
+- [Murendeni Mukwevho](https://github.com/mukwevhom) - Facilitator
+- [Andile Mbatha](https://github.com/ANDILE805) - Collaborator
+- [Halala Ndwandwe](https://github.com/HalalaNdwandwe) - Collaborator
+- [Zanele Manyathi](https://github.com/zmanyath) - Collaborator
+- [Letty Moila](https://github.com/LettyMoila) - Collaborator
+
