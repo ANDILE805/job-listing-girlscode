@@ -1,52 +1,42 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Apply from './Apply/Apply';
-import Jobs from './components/Jobs-Section/Jobs'
-import Job from './components/JobSection/Job'
-import { Route, Routes} from 'react-router-dom';
-import JobsLayout from './pages/Jobs-Layout/JobsLayout';
-
+import Jobs from './pages/Jobs/Jobs';
+import Apply from './pages/Apply/Apply';
+import JobDetails from './pages/JobDetails/JobDetails';
+import AddJob from './pages/AddJob/AddJob';
 
 function App() {
-
-    return (
-        <Routes>
-            <Route
-             path='/'
-             element={<Home />}
+  return (
+    <Routes>
+      <Route
+        path='/'
+        element={<Home />}
       />
-     
-            <Route 
-            path='/Job'
-            element={<Job />}
-            />
 
-        <Route
-        path='/'
-        element={<Jobs/>}
-        />
+      <Route
+        path='/job'
+        element={<JobDetails />}
+      />
 
-        <Route
-        path='/JobsLayout'
-        element={<JobsLayout/>}
-        />
+      <Route
+        path='/jobs'
+        element={<Jobs />}
+      />
 
-        <Route
-        path='/'
-        element={<JobsLayout/>}
-        />
+      <Route
+        path='/apply'
+        element={<Apply />}
+      />
 
-        <Route
-        path='/Apply'
-        element={<Apply/>}
-        />
+      <Route
+        path='/add-job'
+        element={<AddJob />}
+      />
 
-        </Routes>
-        
-       
-
-    )
+    </Routes>
+  )
 }
 
 
