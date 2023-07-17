@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 
 
+
 const Data = [
     {
         id: 1,
@@ -64,7 +65,7 @@ const JobsLayout = () => {
                                 </span>
 
                                 <h6 className="text-black">{location}</h6>
-                                <p className="text-[13px] text-[#959595] pt-5 border-t-[2px] mt-5 group-hover:text-white">
+                                <p className="text-[20px] text-black pt-5 border-t-[2px] mt-5 group-hover:text-black">
                                     {desc}
                                 </p>
 

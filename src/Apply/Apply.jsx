@@ -4,7 +4,10 @@ import React from 'react';
 const Apply = () => {
 return (
     <>
-        <section className="py-20">
+    <div className='font-bold text-xl ml-20 mt-5'>
+        <h1>Your Information:</h1>
+    </div>
+        <section className="py-10">
             <div className="container mx-auto">
                 <form className="border-4 rounded py-4 px-3" >
                     <h2 className="font-bold text-xl">Personal Information</h2>
