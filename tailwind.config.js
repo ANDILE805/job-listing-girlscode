@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'image': "url('/src/assets/App-image.jpg')",
+        'bgImg': "url('/src/assets/backgrond-image.jpg')",
+        'img': "url('/src/assets/postjobs-background.jpg')",
+      },
       colors:{
         'blueColor': '#2a68ff',
         'greyIsh': '#f1f4f8',

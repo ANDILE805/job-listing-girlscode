@@ -7,11 +7,11 @@ import NavBar from '../../components/NavBar/NavBar';
 
 const Home = () => {
   return (
-    <div>
+    <div className='bg-image bg-cover'>
       <div className='font-sarif '>
         <NavBar />
 
-        <div className='text-center mt-40'>
+        <div className='text-center '>
           <h1 className='font-extrabold text-2xl mb-4'>Explore Thousands of Jobs</h1>
           <p className='text-2xl mb-4'>Find Jobs, Employment & Career Opportunities. At your fingertips!</p>
         </div>

@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar/NavBar';
 const Apply = () => {
   return (
     <>
+    <div className='bg-image bg-cover'>
       <NavBar />
       <div className='font-bold text-xl ml-20 mt-5'>
         <h1>Your Information:</h1>
@@ -101,6 +102,7 @@ const Apply = () => {
       </section>
       <div className='text-center my-5 '>
         <button className='border-black border-2 hover:bg-sky-700 hover:text-white text-black py-2 px-20 rounded'>Submit</button>
+      </div>
       </div>
     </>
   )

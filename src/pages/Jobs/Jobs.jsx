@@ -7,7 +7,7 @@ const Jobs = () => {
   return (
     <div>
       <NavBar />
-      <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
+      <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10 bg-bgImg bg-cover" >
         {
           jobsData.map(({ id, tittle, time, location, desc, company }) => {
             return (
