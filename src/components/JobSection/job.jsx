@@ -1,5 +1,6 @@
 import React from "react";
 
+const Job = () => {
 const Data = [
     {
         id: 1,
@@ -84,7 +85,6 @@ const Data = [
 ]
 
 
-const Jobs = () => {
     return (
         <div>
             <div className="jobContainer flex gap-10 justify-center flex-wrap items-center py-10">
@@ -108,7 +108,7 @@ const Jobs = () => {
                                 <span className="text-[14px] py-[1rem] block group-hover:text-white">{company}</span>
                             </div>
 
-                            <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white">See More</button>
+                            <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-black">See More</button>
 
                             </div>
 
@@ -119,5 +119,6 @@ const Jobs = () => {
             </div>
         </div>
     )
+
 }
-export default Jobs
+export default Job;
