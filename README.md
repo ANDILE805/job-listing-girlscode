@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is conected to this: https://github.com/LettyMoila/Job-Listing-Api
 
 ## Available Scripts
 
