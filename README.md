@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project is conected to this: https://github.com/LettyMoila/Job-Listing-Api
+Deployed on Render: https://job-listing-girlscode.onrender.com
 
 ## Available Scripts
 
