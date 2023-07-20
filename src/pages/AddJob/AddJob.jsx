@@ -8,7 +8,7 @@ const AddJob = () => {
     <NavBar />
     <section className="backdrop-blur-sm">
       <div className="container mx-auto ">
-        <form className="border-2 border-zinc-600 rounded py-10 px-7 ml-40 mr-40 my-10">
+        <form action = "http://localhost:5000/job_post" method="post" className="border-2 border-zinc-600 rounded py-10 px-7 ml-40 mr-40 my-10">
           <h2 className="font-bold text-xl flex justify-center">Post Job</h2>
           <div className="mt-3">
             <label className="text-xl">Title</label>

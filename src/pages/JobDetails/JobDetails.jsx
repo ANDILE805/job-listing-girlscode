@@ -71,7 +71,7 @@ const JobDetails = () => {
                   <span className="text-[14px] py-4 block group-hover:text-white">{company}</span>
                 </div>
                 <div>
-                  <Link to='/Apply'>
+                  <Link to='/apply/client_information'>
                     <button className="border-2 rounded-[10px] block p-2.5 w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-black">Apply</button>
                   </Link>
                 </div>
