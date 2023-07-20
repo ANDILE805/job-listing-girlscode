@@ -39,7 +39,7 @@ const Client_Info = () => {
               <input type="number" name="current_salary" placeholder="Enter your current salary" className="block w-full border-2 bg-blue-200 p-2 rounded" required />
             </div>
             <div className='text-center my-5 '>
-                <button className='border-black border-2 hover:bg-sky-700 hover:text-white text-black py-2 px-20 rounded'>Submit</button>
+                <button className='border-black border-2 hover:bg-sky-700 hover:text-white text-black py-2 px-20 rounded'>Next</button>
             </div>
           </form>
         </div> 

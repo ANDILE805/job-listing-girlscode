@@ -7,7 +7,7 @@ import NavBar from '../../components/NavBar/NavBar';
 
 const Home = () => {
   return (
-    <div className='bg-image bg-cover'>
+    <div className='bg-image bg-cover h-screen'>
       <div className='font-sarif '>
         <NavBar />
 

@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 const AddJob = () => {
   return (
     <>
-    <div className="bg-img bg-cover ">
+    <div className="bg-img bg-cover h-screen ">
     <NavBar />
     <section className="backdrop-blur-sm">
       <div className="container mx-auto ">
