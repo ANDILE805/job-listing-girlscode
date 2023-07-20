@@ -1,11 +1,10 @@
-// import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Jobs from './pages/Jobs/Jobs';
-import Client_Info from './pages/Apply/Client_Info';
-import Client_Edu from './pages/Apply/Client_Edu'
-import Client_Exp from './pages/Apply/Client_Exp'
+import ClientInfo from './pages/Apply/ClientInfo';
+import ClientEdu from './pages/Apply/ClientEdu'
+import ClientExp from './pages/Apply/ClientExp'
 import ClientSkills from './pages/Apply/ClientSkills'
 import ThankYou from './pages/Apply/ThankYou';
 import JobDetails from './pages/JobDetails/JobDetails';
@@ -31,17 +30,17 @@ function App() {
 
       <Route
         path='/apply/client_information'
-        element={<Client_Info />}
+        element={<ClientInfo />}
       />
 
       <Route
         path='/apply/client_education'
-        element={<Client_Edu />}
+        element={<ClientEdu />}
       />
 
       <Route
         path='/apply/client_experience'
-        element={<Client_Exp />}
+        element={<ClientExp />}
       />
 
       <Route

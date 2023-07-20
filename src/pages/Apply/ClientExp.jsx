@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Pagination from '../../components/Pagination/pagination';
 
-const Client_Exp = () => {
+const ClientExp = () => {
   return (
     <>
     <div className='bg-image bg-cover'>
@@ -61,4 +61,4 @@ const Client_Exp = () => {
   )
 }
 
-export default Client_Exp;
+export default ClientExp;

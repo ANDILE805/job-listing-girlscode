@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Pagination from '../../components/Pagination/pagination';
 
-const Client_Info = () => {
+const ClientInfo = () => {
   return (
     <>
     <div className='bg-image bg-cover'>
@@ -54,4 +54,4 @@ const Client_Info = () => {
   )
 }
 
-export default Client_Info;
+export default ClientInfo;
