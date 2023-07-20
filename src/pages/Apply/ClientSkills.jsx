@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
+import { Link } from 'react-router-dom';
 import Pagination from '../../components/Pagination/pagination';
 
 const ClientSkills = () => {
@@ -97,7 +98,9 @@ const ClientSkills = () => {
             </div>
             
       <div className='text-center my-5 '>
+        <Link to= '/apply/thank_you'>
                 <button className='border-black border-2 hover:bg-sky-700 hover:text-white text-black py-2 px-20 rounded'>Submit</button>
+                </Link>
             </div>
             </form>
             </div>

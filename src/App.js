@@ -7,6 +7,7 @@ import Client_Info from './pages/Apply/Client_Info';
 import Client_Edu from './pages/Apply/Client_Edu'
 import Client_Exp from './pages/Apply/Client_Exp'
 import ClientSkills from './pages/Apply/ClientSkills'
+import ThankYou from './pages/Apply/ThankYou';
 import JobDetails from './pages/JobDetails/JobDetails';
 import AddJob from './pages/AddJob/AddJob';
 
@@ -46,6 +47,11 @@ function App() {
       <Route
         path='/apply/client_skills'
         element={<ClientSkills />}
+      />
+
+      <Route
+        path='/apply/thank_you'
+        element={<ThankYou />}
       />
 
       <Route
