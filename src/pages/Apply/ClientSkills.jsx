@@ -12,7 +12,7 @@ const ClientSkills = () => {
       </div>
       <section>
       <div className="container mx-auto">
-          <form action = "http://localhost:5000/client_profile/<id>/skills" method="post" className="border-4 rounded py-4 px-3" >
+          <form action = "https://job-konnect.onrender.com/client_profile/<id>/skills" method="post" className="border-4 rounded py-4 px-3" >
             <h2 className="font-bold text-xl">Skill Level</h2>
             <div>
             <div className="mt-3">
