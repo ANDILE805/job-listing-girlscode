@@ -12,7 +12,7 @@ const ClientInfo = () => {
       </div>
       <section>
         <div className="container mx-auto">
-          <form action = "http://localhost:5000/client_profile/{id}" method="post" className="border-4 rounded py-4 px-3" >
+          <form action = "https://job-konnect.onrender.com/client_profile/{id}" method="post" className="border-4 rounded py-4 px-3" >
             <h2 className="font-bold text-xl">Personal Information</h2>
             <div className="mt-3">
               <label className="font-bold">First Name</label>
